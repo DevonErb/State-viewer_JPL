@@ -1,0 +1,6 @@
+node_modules/
+
+# C++ build artifacts (machine/)
+*.o
+machine/event_loop
+machine/test

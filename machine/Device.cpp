@@ -72,25 +72,25 @@ void Device::printActiveState(){
 void Device::printExitTransition(){
       switch(this->state){
         case Initializing:
-            printf("{'state': 'Initializing', 'enter':false}\n");
+            printf("{\"state\": \"Initializing\", \"enter\":false}\n");
             break;
         case Driving:
-            printf("{'state': 'Driving', 'enter':false}\n");
+            printf("{\"state\": \"Driving\", \"enter\":false}\n");
             break;
         case Calibrating:
-            printf("{'state': 'Calibrating', 'enter':false}\n");
+            printf("{\"state\": \"Calibrating\", \"enter\":false}\n");
             break;        
         case Idle:
-            printf("{'state': 'Idle', 'enter':false}\n");
+            printf("{\"state\": \"Idle\", \"enter\":false}\n");
             break;
         case Off:
-            printf("{'state': 'Off', 'enter':false}\n");
+            printf("{\"state\": \"Off\", \"enter\":false}\n");
             break;
         case Recovery:
-            printf("{'state': 'Recovery', 'enter':false}\n");
+            printf("{\"state\": \"Recovery\", \"enter\":false}\n");
             break;
         case Diagnostics:
-            printf("{'state': 'Diagnostics', 'enter':false}\n");
+            printf("{\"state\": \"Diagnostics\", \"enter\":false}\n");
             break;
             
     }
@@ -99,25 +99,25 @@ void Device::printExitTransition(){
 void Device::printEntryTransition(){
             switch(this->state){
         case Initializing:
-            printf("{'state': 'Initializing', 'enter':true}\n");
+            printf("{\"state\": \"Initializing\", \"enter\":true}\n");
             break;
         case Driving:
-            printf("{'state': 'Driving', 'enter':true}\n");
+            printf("{\"state\": \"Driving\", \"enter\":true}\n");
             break;
         case Calibrating:
-            printf("{'state': 'Calibrating', 'enter':true}\n");
+            printf("{\"state\": \"Calibrating\", \"enter\":true}\n");
             break;        
         case Idle:
-            printf("{'state': 'Idle', 'enter':true}\n");
+            printf("{\"state\": \"Idle\", \"enter\":true}\n");
             break;
         case Off:
-            printf("{'state': 'Off', 'enter':true}\n");
+            printf("{\"state\": \"Off\", \"enter\":true}\n");
             break;
         case Recovery:
-            printf("{'state': 'Recovery', 'enter':true}\n");
+            printf("{\"state\": \"Recovery\", \"enter\":true}\n");
             break;
         case Diagnostics:
-            printf("{'state': 'Diagnostics', 'enter':true}\n");
+            printf("{\"state\": \"Diagnostics\", \"enter\":true}\n");
             break;
             
     }

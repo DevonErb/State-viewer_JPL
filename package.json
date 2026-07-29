@@ -1,0 +1,14 @@
+{
+  "name": "state-viewer",
+  "version": "1.0.0",
+  "description": "Web application using a Node.js WebSocket to interact with and visualize a C++ state machine generated from QM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build:machine": "make -C machine build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^8.3.0"
+  }
+}
