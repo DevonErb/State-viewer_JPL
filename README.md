@@ -4,9 +4,14 @@ A web application using a Node.JS web socket to interact and visualize a C++ sta
 
 ## How to use
 
-Make sure you have all the dependencies in package-lock.json
+```sh
+npm install          # express + ws
+npm run build:machine  # compiles machine/event_loop with g++
+npm start            # starts the server
+```
 
-Run `node index.js` to start the server
+See [**CREDITS.md**](./CREDITS.md) for the team, JPL mentors, and prior work this
+builds on.
 
 ### Window
 
